@@ -1,5 +1,6 @@
 // printf("%s") : 포인터를 받아서, 그곳에서 시작해서 '\0'으로 끝날 때 까지 나타나는 모든 문자를 출력
 // putchar()는 아스키값을 받아서, 그 아스키값에 해당하는 문자 하나를 출력
+#include "libct.h"
 
 int ct_putchar(int c) {
     unsigned char ch = (unsigned char)c;
