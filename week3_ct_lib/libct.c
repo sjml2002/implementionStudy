@@ -48,6 +48,7 @@ size_t ct_strlen(const char *s) {
 }
 
 // overflow : 하위 4byte만 계산됨
+// signed로 바꾸기
 int ct_atoi(const char *nptr) {
     if (nptr == NULL) return -1;
 
