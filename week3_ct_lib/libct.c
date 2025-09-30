@@ -130,3 +130,6 @@ char *ct_substr(const char *s, unsigned int start, unsigned int len) {
     result[len] = '\0';
     return result;
 }
+
+// 운영체제가 요청한 만큼의 메모리를 프로세스에 할당해 줄 수 없을 때
+// 메모리 == real + virtual
